@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+    <title>冒泡事件</title>
+</head>
+<body>
+<select name="" id="sel">
+    <option value="100">请选择</option>
+    <option value="200">北京</option>
+    <option value="300">上海</option>
+    <option value="400">广州</option>
+</select>
+</body>
+<script>
+ var oSel=document.getElementById('sel');
+ oSel.onchange=function () {
+     console.log(oSel.selectedIndex);
+ }
+</script>
+</html>
